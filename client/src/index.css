@@ -51,9 +51,9 @@ code {
 .DarkMode {
   color: #fff;
   background-color: #313843;
+}
 
-  .NavBar {
-    background-color: #1F2022;
-    border: none;
-  }
+.DarkMode.NavBar {
+  background-color: #1F2022;
+  border: none;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import DarkMode from '../Hooks/DarkMode.js'
 
-const Navbar = () => {
+const NavBar = () => {
   const [darkMode, setDarkMode] = DarkMode(false);
   const toggleMode = e => {
     e.preventDefault();
@@ -20,4 +20,4 @@ const Navbar = () => {
     </nav>
   );
 };
-export default Navbar;
+export default NavBar;

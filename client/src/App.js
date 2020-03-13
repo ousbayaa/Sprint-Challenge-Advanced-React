@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import axios from 'axios';
 import PlayerData from './Components/PlayerData.js';
-import Navbar from './Components/NavBar';
+import NavBar from './Components/NavBar';
 
 function App() {
   const [players, setPlayers] = useState([{}])
@@ -24,10 +24,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar />
+        <NavBar />
         <h1>Women's World Cup</h1>
-      <PlayerData players={players} />
       </header>
+      <PlayerData players={players} />
     </div>
   );
 }
